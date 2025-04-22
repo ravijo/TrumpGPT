@@ -1,5 +1,8 @@
 # TrumpGPT
-A GPT model trained to mimic Donald Trump's style - just for fun. The project implements Causal Language Modeling (CLM). The model is trained on various speeches given by [Donald Trump](https://huggingface.co/datasets/jonaskoenig/trump_administration_statement), with the goal of generating text in a similar style.
+A GPT model trained to mimic Donald Trump's speaking style - just for fun.
+
+This project implements Causal Language Modeling (CLM) and is trained on a collection of Donald Trump's speeches to generate text in a similar tone and manner. Fine-tuning is performed using LoRA (Low-Rank Adaptation) for efficient training on limited resources.
+
 
 
 <h3 align="center">Run on Google Colab (No GPU Required)</h3>
