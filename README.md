@@ -4,19 +4,23 @@ A GPT model trained to mimic Donald Trump's speaking style - just for fun.
 This project implements Causal Language Modeling (CLM) and is trained on a collection of Donald Trump's speeches to generate text in a similar tone and manner. Fine-tuning is performed using LoRA (Low-Rank Adaptation) for efficient training on limited resources.
 
 
+## Demo
+👉 [Try the TrumpGPT Demo](https://gotnogpu-trumpgpt.hf.space/)
 
-<h3 align="center">Run on Google Colab (No GPU Required)</h3>
+
+## Training
+<h3 align="center">🧠 Model Training on Google Colab (No GPU Required)</h3>
 <p align="center">
-    <img src="screenshot.jpg" alt="Screenshot of Notebook running on Google Colab" />
-    <br />
-    <sup>You can run this notebook directly on Google Colab, even if you don't have a GPU!</sup>
+  <img src="screenshot.jpg" alt="Screenshot of Notebook running on Google Colab" width="600"/>
+  <br />
+  <sup>✅ You can run the notebook directly on Google Colab — no GPU needed!</sup>
 </p>
 
 
 ## Todo
+- [x] Deploy a simple web demo for interactive text generation
 - [ ] Experiment with other base models speically smaller models
 - [ ] Train on a larger dataset
-- [ ] Deploy a simple web demo for interactive text generation
 - [ ] Fine-tune model hyperparameters (e.g., learning rate, batch size, context length) for LoRA
 
 
